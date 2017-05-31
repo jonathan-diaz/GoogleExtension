@@ -1,21 +1,21 @@
 {
-    "manifest_version": 2,
-    "name": "The Big-Ol Extension",
-    "description": "The extension that will define them all",
-    "version": "1.0",
+  "manifest_version": 2,
+
+  "name": "Cutie",
+  "description": "Hey ;)",
+  "version": "1.0",
     "background": {
         "scripts": ["background.js"]
     },
-        "content_scripts": [
+    "content_scripts": [
         {
-            "matches": [
-                "<all_urls>"
-            ],
+            "css":["styles.css"],
             "js": ["jquery-3.2.1.min.js", "content.js"],
-            "css": ["styles.css"]
+            "matches": [        "http://itwspeeracademy.noblenetwork.org/"
+            ]
         }
     ],
-      "browser_action": {
+  "browser_action": {
    "default_icon": "icon.png",
    "default_popup": "popup.html"
   },
