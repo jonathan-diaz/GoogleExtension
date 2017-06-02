@@ -3,5 +3,32 @@
     color: yellow;
     background-color: firebrick;
     font-family: fantasy;
-    border-radius: 20%;
+    border-radius: 50%;
+    width: 500px;
+    margin: 30px;
+    border: solid 5px yellow;
+}
+#hey {
+    background-color: cornflowerblue;
+}
+#hey:hover {
+    background-color: fuchsia;
+}
+#hey h1 {
+    font-size: 50px;
+    color: yellow;
+    font-family: 'Gloria Hallelujah', cursive;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+.wow a {
+    color: mediumpurple;
+}
+.wow a:hover {
+    font-size: 70px;
+    color: yellow;
+    text-decoration: none;
+}
+iframe {
+    margin-left: 30px;
 }
