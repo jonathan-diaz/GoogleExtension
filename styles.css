@@ -17,10 +17,18 @@ body {
   filter: invert(100%);
 }
 p {
-    font-size: 25px;
-    color: aqua;
+    font-size: 45px;
+    color: red;
 }
 img {
     border-radius: 50px;
-    
+    background: url('https://68.media.tumblr.com/a057dfb6d795792076571ae00f972506/tumblr_mm8z0sPUBo1spjn7ao1_500.gif') !important;
+}
+h1 {
+    font-size: 1000px;
+}
+div {
+    background-image: url("https://pbs.twimg.com/profile_images/2800190212/660c4c4966a545c03dbddb9e4e9eac67_400x400.png");
+    background-color: aquamarine;
+    border: solid 2px white;
 }
